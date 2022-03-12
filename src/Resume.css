@@ -1,0 +1,32 @@
+#homeSquare{
+    margin-left: 2em;
+    width: 125px;
+    height: 125px;
+    display: block;
+    border: 1px solid black;
+    background-position: center;
+    padding: 1.5em;
+    background-image: url(../public/images/slamDunkIOS.png);
+    background-size: 200px;
+  }
+
+  #homeSquare a{
+    margin-top: 2.5em;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-left: -0.2em;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    width: 125px;
+    padding: 5px;
+    background-color: white;
+    border: 0.5px solid black;
+  }
+
+  #homeSquare a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 0.5px solid white;
+  }

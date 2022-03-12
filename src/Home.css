@@ -1,0 +1,215 @@
+.leftPicture{
+    float: left;
+    height: 927px;
+    margin-top: -3em;
+    margin-left: -5em;
+  }
+  
+  .jumbotron{
+    background-image: url(../public/images/atBackgroundImagePH.png);
+  }
+  
+  .spacer{
+    padding: 1.5em;
+  }
+  
+  .jumbotron h1{
+    margin: 1.6em 0em 2em 10em;
+    text-align: center;
+    color: #ffffff;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6em;
+    font-weight: bold;
+    width: 770px;
+  }
+  
+  .jumbotron p{
+    margin: -12em 0em 0em 60em;
+    padding: 0.5em 0em 0.5em 0em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-kerning: 10px;
+    background-color: #ffffff;
+    width: 770px;
+  }
+  
+  .grid-container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-column-gap: 98px;
+    grid-row-gap: 20px;
+    margin: 1.75em 0em 8.25em 60em;
+  }
+  
+  /* MARGIN: TOP RIGHT BOTTOM LEFT */
+  
+  .grid-container a{
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-left: -0.2em;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    width: 125px;
+    padding: 5px;
+    background-color: white;
+    border: 0.5px solid black;
+  }
+  
+  .grid-container a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 0.5px solid white;
+  }
+  
+  .grid-container div{
+    width: 125px;
+    height: 125px;
+    display: block;
+    border: 1px solid black;
+    background-position: center;
+    padding: 1.5em;
+  }
+  
+  #videoSquare{
+    background-image: url(../public/images/bbbe.PNG);
+    background-size: 200px;
+  }
+  
+  #videoSquare a{
+    margin-top: 2.5em;
+  }
+  
+  #posterSquare{
+    background-image: url(../public/images/poster-2.png);
+    background-size: 175px;
+  }
+  
+  #posterSquare a{
+    margin-top: 2.5em;
+  }
+  
+  #commissionSquare{
+    background-image: url(../public/images/polkaBird.png);
+    background-size: 200px;
+  }
+  
+  #commissionSquare a{
+    margin-top: 2em;
+    margin-left: -0.5em;
+    width: 140px;
+  }
+  
+  #aboutSquare{
+    background-image: url(../public/images/meCollageAlt.png);
+    background-size: 250px;
+  }
+  
+  #aboutSquare a{
+    margin-top: 2em;
+  }
+  
+  #musicSquare{
+    background-image: url(../public/images/johanCover.png);
+    background-size: 175px;
+  }
+  
+  #musicSquare a{
+    margin-top: 1.25em;
+  }
+  
+  #webSquare{
+    background-image: url(../public/images/web1.png);
+    background-size: 310px;
+  }
+  
+  #webSquare a{
+    margin-top: 2em;
+  }
+  
+  #miscSquare{
+    background-image: url(../public/images/slamDunkIOS.png);
+    background-size: 200px;
+  }
+  
+  #miscSquare a{
+    margin-top: 2.5em;
+  }
+  
+  #resumeSquare{
+    background-image: url(../public/images/resume.PNG);
+    background-size: 175px;
+  }
+  
+  #resumeSquare a{
+    margin-top: 2.5em;
+  }
+  
+  
+  /* MARGIN: TOP RIGHT BOTTOM LEFT */
+  
+  /* RESPONSIVENESS */
+  @media(max-width:1750px){
+    .leftPicture{
+      height: 52.5rem;
+    }
+  
+    .jumbotron h1{
+      margin: 0em 0em 2em 9.5em;
+      padding: 0.15em 0em 0.15em 0em;
+      font-size: 5em;
+      width: 8.14em;
+    }
+  
+    .jumbotron p{
+      margin: -10em 0em 0em 47.49em;
+      width: 40.7em;
+    }
+  
+    .grid-container{
+      grid-template-columns: 6.5em 6.5em 6.5em;
+      margin: 1.75em 0em 0em 50em;
+    }
+  
+  }
+  
+  @media(max-width:1500px){
+    .leftPicture{
+      height: 40rem;
+    }
+  
+    .jumbotron h1{
+      margin: 0em 0em 2em 12em;
+      padding: 0.15em 0em 0.15em 0em;
+      font-size: 3em;
+      width: 10em;
+    }
+  
+    .jumbotron p{
+      margin: -10em 0em 0em 47.49em;
+      width: 40.7em;
+    }
+  
+    .grid-container{
+      margin: 1.75em 0em 0em 45em;
+    }
+  }
+  
+  @media(max-width:1200px){
+    .grid-container{
+      grid-template-columns: 100px 100px;
+      
+    }
+  }
+  
+  @media(max-width:800px){
+    
+  }
+  
+  @media(max-width:480px){
+    
+  }
