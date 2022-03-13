@@ -18,7 +18,7 @@ function Home(){
                 <div id="videoSquare"><a href="https://willhaller10.myportfolio.com/videos">VIDEOS</a></div>
                 <div id="posterSquare"><a href="https://willhaller10.myportfolio.com/posters">POSTERS</a></div>
                 <div id="commissionSquare"><a href="https://willhaller10.myportfolio.com/commisssioned-work">COMMISSION<br></br>WORK</a></div>
-                <div id="aboutSquare"><a href="https://willhaller10.myportfolio.com/commisssioned-work">ABOUT WILL</a></div>
+                <div id="aboutSquare"><a href="/about">ABOUT WILL</a></div>
                 <div id="musicSquare"><a href="https://willhaller10.myportfolio.com/designing-for-music">DESIGN<br></br>FOR<br></br>MUSIC</a></div>
                 <div id="webSquare"><a href="https://willhaller10.myportfolio.com/web-design-and-development">UI/UX<br></br>DESIGN</a></div>
                 <div id="miscSquare"><a href="/">MISC. WORK</a></div>

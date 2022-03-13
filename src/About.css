@@ -1,0 +1,66 @@
+.aboutPage{
+    background-image: url(../public/images/atBackgroundImagePH.png);
+}
+
+.spacer{
+    padding: 1.5em;
+}
+
+/* MARGIN: TOP RIGHT BOTTOM LEFT */
+
+.content h1{
+    float: right;
+    text-align: center;
+    color: #ffffff;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6em;
+    font-weight: bold;
+    width: 650px;
+}
+
+.collage{
+    margin: 0em 0em 0em 0em;
+    float: left;
+    width: 55%;
+    height: 55%;
+}
+
+.content{
+    width: 40%;
+    margin: 1.5em 0em 0em 62em;
+    padding-bottom: 9.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    
+}
+  
+.buttons{
+    display: flex;
+    list-style-type: none;
+    margin-left: 14.5em;
+}
+
+.buttons li{
+    margin-left: 2em;
+}
+
+.buttons a{
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-left: -0.2em;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    width: 125px;
+    padding: 5px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+
+.buttons a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 0.5px solid white;
+}
