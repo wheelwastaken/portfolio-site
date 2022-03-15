@@ -6,19 +6,6 @@
     padding: 1.5em;
 }
 
-/* MARGIN: TOP RIGHT BOTTOM LEFT */
-
-.content h1{
-    float: right;
-    text-align: center;
-    color: #ffffff;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 6em;
-    font-weight: bold;
-    width: 650px;
-}
-
 .collage{
     margin: 0em 0em 0em 0em;
     float: left;
@@ -26,19 +13,63 @@
     height: 55%;
 }
 
+/* MARGIN: TOP RIGHT BOTTOM LEFT */
+
 .content{
     width: 40%;
-    margin: 1.5em 0em 0em 62em;
-    padding-bottom: 9.25em;
+    margin: 1em 0em 0em 62em;
+    padding-bottom: 5em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
     
 }
+
+.content h1{
+    margin-left: 1.3em;
+    text-align: center;
+    color: #ffffff;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6em;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+}
+
+.content h2{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 0.5em;
+    margin-left: 23em;
+    text-align: center;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.socials{
+    display: flex;
+    list-style-type: none;
+    margin-left: 29em;
+    margin-top: 1.5em;
+    padding-bottom: 1em;;
+}
+
+.socials li{
+    margin-left: 1.25em;
+}
+
+.socials img{
+    width: 45px;
+    height: 45px;
+}
+
   
 .buttons{
     display: flex;
     list-style-type: none;
     margin-left: 14.5em;
+    margin-top: 3em;
 }
 
 .buttons li{
