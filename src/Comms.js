@@ -1,13 +1,13 @@
 import React from 'react';
-import './Misc.css';
+import './Comms.css';
 
-function Misc(){
+function Comms(){
     return(
-        <div className="miscPage">
+        <div className="commsPage">
             <h1>AAAAAAAAAAAAAAAAAAAAA</h1>
             <a href="/">HOME</a>
         </div>
     );
 }
 
-export default Misc;
+export default Comms;
